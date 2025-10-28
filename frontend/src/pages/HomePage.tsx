@@ -8,9 +8,7 @@ const HomePage = () => {
       try {
         const res = await customFetch.get("/users/showMe");
         console.log({ data: res.data });
-      } catch (error) {
-        console.log({ error: error.response.data.msg });
-      }
+      } catch (error) {}
     };
 
     fetchUser();

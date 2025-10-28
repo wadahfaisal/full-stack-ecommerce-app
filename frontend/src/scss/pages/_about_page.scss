@@ -1,0 +1,32 @@
+main.about-page {
+  .about-section {
+    @extend .page;
+    @extend .section;
+    @extend .section-center;
+    display: grid;
+    gap: 4rem;
+    img {
+      width: 100%;
+      display: block;
+      border-radius: $radius;
+      height: 500px;
+      object-fit: cover;
+    }
+    p {
+      line-height: 2;
+      max-width: 45em;
+      margin: 0 auto;
+      margin-top: 2rem;
+      color: $clr-grey-5;
+    }
+    .title {
+      text-align: left;
+    }
+    .underline {
+      margin-left: 0;
+    }
+    @media (min-width: 992px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

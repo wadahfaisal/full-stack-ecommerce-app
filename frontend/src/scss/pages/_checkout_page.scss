@@ -1,0 +1,11 @@
+main.checkout-page {
+  .checkout-content {
+    @extend .page;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .empty {
+      text-align: center;
+    }
+  }
+}

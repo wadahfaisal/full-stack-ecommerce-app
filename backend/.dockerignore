@@ -1,0 +1,7 @@
+node_modules
+md
+.git
+.nixpacks.toml
+procfile
+vercel.json
+dist

@@ -1,0 +1,32 @@
+section.featured-products {
+  @extend .section;
+  background: $clr-grey-10;
+
+  .featured {
+    @extend .section-center;
+    margin: 4rem auto;
+    display: grid;
+    gap: 2.5rem;
+    img {
+      height: 225px;
+    }
+  }
+  .btn {
+    display: block;
+    width: 148px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  @media (min-width: 576px) {
+    .featured {
+      // grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 992px) {
+    .featured {
+      // grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

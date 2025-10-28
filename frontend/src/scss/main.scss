@@ -1,0 +1,41 @@
+@import "variables";
+@import "global_styles";
+
+// Importing Components
+@import "./components/navbar";
+@import "./components/cart_buttons";
+@import "./components/footer";
+@import "./components/sidebar";
+@import "./components/page_hero";
+@import "./components/hero";
+@import "./components/services";
+@import "./components/contact";
+@import "./components/featured_products";
+@import "./components/product";
+@import "./components/product_images";
+@import "./components/stars";
+@import "./components/add_to_cart";
+@import "./components/amount-buttons";
+@import "./components/grid_view";
+@import "./components/list_view";
+@import "./components/sort";
+@import "./components/filters";
+@import "./components/cart_content";
+@import "./components/cart_columns";
+@import "./components/cart_totals";
+@import "./components/stripe_checkout";
+@import "./components/cart_item";
+
+// Importing Pages
+@import "./pages/error_page";
+@import "./pages/about_page";
+@import "./pages/checkout_page";
+@import "./pages/single_product_page";
+@import "./pages/products_page";
+@import "./pages/cart_page";
+@import "./pages/auth";
+
+// body {
+//   background: #222 !important;
+//   color: #eee !important;
+// }

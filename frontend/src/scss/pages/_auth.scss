@@ -1,0 +1,16 @@
+form.auth-form {
+  @extend .form;
+
+  h3 {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
+
+  .submit-btn {
+    // margin-top: 0.5rem;
+    @extend .btn;
+    width: 100%;
+  }
+}
